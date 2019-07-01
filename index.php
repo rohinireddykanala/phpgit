@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "", "project1");
+$connect = mysqli_connect("localhost", "root", "", "project1");/*db coonection*/
 $query = "SELECT * FROM tbl_user ORDER BY id DESC";
 $result = mysqli_query($connect, $query);
 ?>
