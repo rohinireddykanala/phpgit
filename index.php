@@ -1,5 +1,5 @@
 <?php
-get_header('inquiry-form'); 
+//get_header('inquiry-form'); 
 $connect = mysqli_connect("localhost", "root", "", "project1");
 $query = "SELECT * FROM tbl_user ORDER BY id DESC";
 $result = mysqli_query($connect, $query);
